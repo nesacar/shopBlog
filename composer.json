@@ -1,0 +1,23 @@
+{
+  "name": "Nebojsa/BlogShop",
+  "description": "BlogShop package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nebojša Marković",
+      "email": "nebojsart1409@yahoo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nebojsa\\BlogShop\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php" : ">=5.6.4",
+    "illuminate/support": "~5",
+    "dimsav/laravel-translatable": "^7.*",
+    "mcamara/laravel-localization": "^1.2"
+  }
+}

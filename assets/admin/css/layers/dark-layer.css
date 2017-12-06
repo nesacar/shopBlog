@@ -1,0 +1,132 @@
+::-webkit-input-placeholder {
+   color: #bfbfbf!important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #bfbfbf!important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #bfbfbf!important;
+}
+
+:-ms-input-placeholder {
+   color: #bfbfbf!important;
+}
+
+.search-form input::-webkit-input-placeholder {
+   color: #c6d1e2!important;
+}
+
+.search-form input:-moz-placeholder { /* Firefox 18- */
+   color: #c6d1e2!important;
+}
+
+.search-form input::-moz-placeholder {  /* Firefox 19+ */
+   color: #c6d1e2!important;
+}
+
+.search-form input:-ms-input-placeholder {
+   color: #c6d1e2!important;
+}
+
+.page-content {
+     background: #23282d;
+}
+
+.navbar .logo-box {
+    background: #23282d url('http://locahlost/croatia/public/admin/images/P-Grupacija_logo.png') no-repeat center;
+        background-size: contain;
+    
+}
+
+.navbar .logo-box a {
+    color: #fff;
+}
+
+.topmenu-outer {
+    background: #e1e1e1;
+}
+
+.top-menu .navbar-nav > li > a {
+    color: #fff;
+}
+
+.sidebar {
+    background: #23282d;
+}
+
+.sidebar-profile span small {
+    color: #899dc1;
+}
+
+.menu {
+    background: #e1e1e1;
+}
+
+.menu.accordion-menu a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.menu.accordion-menu a:hover {
+  color: #fff
+}
+.menu.accordion-menu li {
+    background: #32373d;
+    border-bottom: 1px solid #404c57;
+}
+.menu.accordion-menu li:hover {
+    background: #0073aa;
+}
+.menu.accordion-menu ul.sub-menu li {
+    border: none;
+}
+
+.menu.accordion-menu > li > a:hover {
+    border-radius: 0;
+    /*background: #e8ad2d;*/
+}
+
+.menu.accordion-menu > li.active > a,
+.menu.accordion-menu > li.active.open > a {
+    border-radius: 0;
+    /*background: #e8ad2d;*/
+}
+
+.menu.accordion-menu > li.active > a p,
+.menu.accordion-menu > li.active.open > a p,
+.menu.accordion-menu > li.active > a,
+.menu.accordion-menu > li.active.open > a {
+    color: #333;
+}
+
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li.droplink:hover > a,
+.horizontal-bar .accordion-menu > li.droplink:hover > a,
+.menu.accordion-menu li.open > a,
+.hover-menu .accordion-menu > li.droplink:hover > a {
+    background: #0073aa;
+    /*color: #e8ad2d;*/
+}
+
+body:not(fixed-sidebar) .small-sidebar .horizontal-bar .accordion-menu > li > ul {
+    top: 51px!important;
+}
+
+.menu.accordion-menu ul li a:hover,
+.menu.accordion-menu ul li.active a {
+    background: #292e34;
+    color: #b3bfd0;
+}
+
+.menu.accordion-menu ul li a {
+    color: #b3bfd0;
+}
+
+.search-form.boxed-layout-search .input-group,
+.search-form {
+    background: #292e34;
+}
+
+.page-footer {
+    background: #23282d !important;
+}
