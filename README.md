@@ -1,3 +1,1 @@
 "# blogshop" 
-"# blogshop" 
-"# shopBlog" 
