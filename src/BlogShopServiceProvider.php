@@ -1,6 +1,6 @@
 <?php
 
-namespace Nebojsa\BlogShop;
+namespace nesacar\blogshop;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -104,8 +104,8 @@ class BlogShopServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('blogShop', function($app){
-            return new BlogShop;
+        $this->app->bind('blogshop', function($app){
+            return new blogshop;
         });
     }
 }

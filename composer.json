@@ -1,5 +1,5 @@
 {
-  "name": "Nebojsa/BlogShop",
+  "name": "nesacar/blogshop",
   "description": "BlogShop package",
   "license": "MIT",
   "authors": [
@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Nebojsa\\BlogShop\\": "src/"
+      "nesacar\\blogshop\\": "src/"
     }
   },
   "minimum-stability": "dev",
